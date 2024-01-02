@@ -1,0 +1,13 @@
+Komunikasi terdapat tiga jenis yaitu:
+a) Simplex: komunikasi satu arah
+b) Half-Duplex: dapat menjadi penerima atau pengirim, namun dapat dilakukan secara bergantian
+c) Full-Duplex: dapat menerima atau mengirim sekaligus
+
+Berikut adalah contoh komunikasi:
+1. SPI : komunikasi ini menggunakan hubungan master yang mengendalikan komunikasi (biasanya mikon) dengan slave (biasanya sensor, display, atau chip memory). komunikasi ini menguntungkan karena tidak adanya gangguan pengiriman data. kecepatan pengiriman data cenderung tinggi.
+2. I2C : komunikasi juga menggunakan master dan slave, namun I2C hanya menggunakan 2 kabel. komunikasi ini juga memerlukan address frame.
+3. UART : Universal Asynchronous Receiver Transmitter, yaitu protokol komunikasi yang sering digunakan karena memungkinkan komunikasi serial asinkron dengan kecepatan yang dapat dikonfigurasi
+4. CAN : yaitu Controller Area Network yaitu standar bus kendaraan untuk mikon dalam perangkat untuk melakukan komunikasi tanpa komputer host. CAN menggunakan mode half-duplex.
+5. I2S : digunakan untuk transmisi data audio antar perangkat audio digital.
+6. GPIO : General Purpose Input Output, merupakan expander apabila tidak cukup port input atau output
+7. SDIO : ekspansi tipe SD. dapat digunakan juga untuk receu=iver GPS, adaptor, Wi-Fi, atau Bluetooth, modem, adaptor LAN, barcode reader, dan perangkat lain yang menggunakan SD antarmuka standar.
